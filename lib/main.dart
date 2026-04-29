@@ -439,6 +439,7 @@ class ZombieDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFFC_C6_88),
       appBar: AppBar(title: Text(zombie.name)),
       body: ListView(
         padding: const EdgeInsets.all(16),
@@ -468,6 +469,7 @@ class StrategyDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFFC_C6_88),
       appBar: AppBar(title: Text(tip.title)),
       body: ListView(
         padding: const EdgeInsets.all(16),
