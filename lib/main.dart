@@ -20,13 +20,13 @@ class MainApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const EncyclopediaHomePage(),
+      home: const AlmanacHomePage(),
     );
   }
 }
 
-class EncyclopediaHomePage extends StatelessWidget {
-  const EncyclopediaHomePage({super.key});
+class AlmanacHomePage extends StatelessWidget {
+  const AlmanacHomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
